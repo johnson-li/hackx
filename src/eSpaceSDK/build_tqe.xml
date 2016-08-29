@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="eSpace_android" default="compile">
+
+	<property name="build-dir" location="." /><!--转换为绝对路径-->
+    <property name="base-direct" value="${build-dir}" /><!--引用变量值-->
+    <property name="outdir" value="${base-direct}/bin" />
+    <property name="outdir-gen" value="${base-direct}/gen" />
+    <property name="resource-dir" value="${base-direct}/res" />
+    <property name="src-dir" value="${base-direct}/src" />
+    <property name="outdir-classes" value="${outdir}/classes" />
+	
+    <property name="sdk-platform-tools" value="F:\android3.2\android-sdk\android-sdk\platform-tools" />
+    <property name="sdk-tools" value="F:\android3.2\android-sdk\android-sdk\tools" />
+    <property name="sdk-platform" value="F:\android3.2\android-sdk\android-sdk\platforms\android-13" />
+    <property name="aapt" value="${sdk-platform-tools}/aapt.exe" />
+	<property name="aidl" value="${sdk-platform-tools}/aidl.exe" />
+    <property name="android-jar" value="${sdk-platform}/android.jar" />
+    <path id="libs">
+        <fileset dir="${base-direct}/libs">
+            <include name="*.jar" />            
+        </fileset>
+		<fileset dir="${basedir}/innerlib">
+            <include name="*.jar" />        	
+        </fileset>
+		<fileset dir="${basedir}/platform">
+            <include name="*.jar" />        	
+        </fileset>
+        <fileset dir="${basedir}/open_src">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+    <path id="dist-svn-libs">
+        <fileset dir="${base-direct}/libs/armeabi">           
+            <include name="*.so" /> 
+        </fileset>
+    </path>
+    
+	 <!-- 步骤 1. 删除之前编译生成的class文件，TQE记录的是编译过程，假如Class文件存在，不在编译该java文件-->
+    <target name="delete-file">
+        <echo>删除编译生成的class文件</echo>
+        <delete includeEmptyDirs="true"> <!--同时删除空的目录--> 
+            <fileset dir="${outdir}"/>
+            <fileset dir="${outdir-gen}"/>  
+        </delete>  
+    </target>
+	
+    <!-- 步骤 2. 初始化目录-->
+    <target name="init" depends="delete-file">
+        <echo>初始化目录</echo>
+        <mkdir dir="${outdir}" />
+        <mkdir dir="${outdir-classes}" />
+        <mkdir dir="${outdir-gen}" />
+    </target>
+    
+    <!-- 步骤 3. 生成R文件-->
+    <target depends="init" name="resource-src">
+        <echo>生成R文件</echo>
+        <exec executable="${aapt}" failonerror="true">
+            <arg value="package" />
+            <arg value="-m" />
+            <arg value="-J" />
+            <arg value="${outdir-gen}" />
+            <arg value="-M" />
+            <arg value="${base-direct}/AndroidManifest.xml" />
+            <arg value="-S" />
+            <arg value="${resource-dir}" />
+            <arg value="-I" />
+            <arg value="${android-jar}" />
+        </exec>
+    </target>
+    
+    <!-- 步骤4. 编译R文件以及源码文件-->
+    <target depends="init, resource-src" name="compile">
+        <echo>编译R文件以及源码文件</echo>
+        <javac bootclasspath="${android-jar}" debug="true" destdir="${outdir-classes}" encoding="utf-8" target="1.6"  executable="F:/Java64/jdk1.6.0_13/bin/javac"  fork="true"  taskname="javac64">
+            <src path="${src-dir}" />
+        	<src path="${outdir-gen}" />
+            <classpath refid="libs" />
+            <classpath refid="dist-svn-libs" />
+        </javac>
+    </target>
+    
+</project>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.huawei.esdk.uc.demo.conf.widget.SlippingViewGroup
+        android:id="@+id/slippingGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/title" />
+ 
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/logout_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="登出"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/top_bg"
+            />
+<!--
+        <TextView
+            android:id="@+id/unread"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignRight="@+id/a_title"
+            android:layout_alignTop="@+id/a_title"
+            android:padding="2dp"
+            android:textColor="#FFFFFF" />
+
+        
+
+        <ImageView
+            android:id="@+id/cur_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/self_head"
+            android:layout_alignRight="@+id/self_head"
+            android:src="@drawable/recent_offline_small" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/self_head"
+            android:padding="10dp"
+            android:textColor="@color/white" /> -->
+ 
+
+        <ImageView
+            android:id="@+id/create_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+           android:layout_alignParentRight="true"
+            android:background="@drawable/bg_icon_selector"
+            android:padding="15dp"
+            android:src="@drawable/icon_create" />
+
+         
+    </RelativeLayout>
+
+</RelativeLayout>

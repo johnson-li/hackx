@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/call_phone_twince_bg">
+
+    <FrameLayout android:layout_height="66dp"
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="7.34dp"
+        android:layout_marginRight="7.34dp">
+
+        <EditText android:id="@+id/edit_number"
+            android:layout_width="match_parent"
+            android:layout_height="65.4dp"
+            android:gravity="center"
+            android:textSize="33.4sp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:background="@drawable/call_phone_twince_txt">
+        </EditText>
+    </FrameLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15.4dp">
+
+        <LinearLayout android:id="@+id/tableRow1"
+            android:layout_weight="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callOne"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_1_select">
+
+                <TextView android:id="@+id/dial_1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_1"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callTwo"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_2_select">
+
+                <TextView android:id="@+id/dial_2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_2"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callThree"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_3_select">
+
+                <TextView android:id="@+id/dial_3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_3"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1.0">
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callFour"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_1_select">
+
+                <TextView android:id="@+id/dial_4"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_4"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callFive"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_2_select">
+
+                <TextView android:id="@+id/dial_5"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_5"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callSix"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_3_select">
+
+                <TextView android:id="@+id/dial_6"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_6"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1.0">
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callSeven"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_1_select">
+
+                <TextView android:id="@+id/dial_7"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_7"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callEight"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_2_select">
+
+                <TextView android:id="@+id/dial_8"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_8"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callNine"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_3_select">
+
+                <TextView android:id="@+id/dial_9"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_9"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1.0">
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callX"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_10_select">
+
+                <TextView android:id="@+id/dial_star"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_10"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callZero"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_0_select">
+
+                <TextView android:id="@+id/dial_0"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_0"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_height="match_parent"
+                android:id="@+id/callJ"
+                android:layout_weight="1.0"
+                android:layout_width="wrap_content"
+                android:background="@drawable/media_11_select">
+
+                <TextView android:id="@+id/dial_sharp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/media_11"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

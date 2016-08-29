@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="输入对方账号："
+        
+        />
+    <EditText
+        android:id="@+id/et_espace_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="聊天" />
+        <Button
+            android:id="@+id/logout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登出" />
+    </LinearLayout>
+
+</LinearLayout>

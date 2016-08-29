@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/ctd_call"
+    android:background="@color/black" >
+ <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="@color/black">
+        <LinearLayout
+            android:id="@+id/left_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:background="@drawable/bg_icon_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/left_img"
+                android:layout_width="@dimen/heightTitle"
+                android:layout_height="@dimen/heightTitle"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/voip_net_info_txt"
+                android:src="@drawable/icon_back" />
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+        </LinearLayout>
+                 
+
+        <LinearLayout
+            android:id="@+id/ctd_animation_ll"
+            android:layout_width="133.4dp"
+            android:layout_height="133.4dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21.4dip" >
+
+            <ImageView
+                android:id="@+id/ctd_animation"
+                android:contentDescription="@string/voip_net_info_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/animation" />
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ctd_animation_ll"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="24.34dp"
+            android:background="@drawable/vedio_info_box_bg" 
+            android:id="@+id/call_info_rl">
+
+            <com.huawei.espace.widget.photo.RoundCornerPhotoView
+                android:id="@+id/called_image"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="13.4dip"
+                android:layout_marginTop="6dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_head" />
+
+
+
+            <LinearLayout
+                android:id="@+id/number_ll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/called_image"
+                android:layout_marginLeft="18dip"
+                android:layout_marginRight="6.6dp"
+                android:layout_toLeftOf="@id/net_ll"
+                android:layout_toRightOf="@id/called_image"
+                android:baselineAligned="@id/called_image"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/called_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:gravity="top"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                
+                <TextView
+                    android:id="@+id/called_department"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+                    android:textStyle="normal" 
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/call_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/call_transfer_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="bottom|center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/voip_transfer_from"
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+                    android:textStyle="normal"
+                    android:visibility="gone" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/call_remark_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="bottom|center_vertical"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+                    android:textStyle="normal"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+          <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/call_info_rl"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/call_ctd_info">
+             <TextView
+                    android:id="@+id/call_ctd_descript"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="稍后您将收到eSpace回拨的来电，请注意接听"
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+        </RelativeLayout>
+</FrameLayout>

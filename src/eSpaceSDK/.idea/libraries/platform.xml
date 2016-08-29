@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="platform">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/platform/HME-Video.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platform/svnapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platform/TupCall.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platform/TupIm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platform/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platform/AnyOfficeSDK.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platform/HME-Audio.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platform/TupConf.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

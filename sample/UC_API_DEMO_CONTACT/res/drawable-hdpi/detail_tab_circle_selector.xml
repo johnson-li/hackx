@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/detail_blog_click" />
+    <item android:state_enabled="true" android:drawable="@drawable/detail_blog_normal" />
+    <item android:state_focused="true" android:drawable="@drawable/detail_blog_click" />
+    <item android:drawable="@drawable/detail_blog_normal"/>
+</selector>

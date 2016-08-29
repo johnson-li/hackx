@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<RelativeLayout
+	    android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+		<Button
+		    android:id="@+id/bt_create"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_centerHorizontal="true"
+		    android:text="@string/discuss" />
+	    
+    </RelativeLayout>
+    
+    <HorizontalScrollView
+        android:id="@+id/members"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:scrollbars="none"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <GridView
+                android:id="@+id/to_add_gv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+	
+	<RelativeLayout
+        android:id="@+id/contact_list_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/members" />
+</RelativeLayout>

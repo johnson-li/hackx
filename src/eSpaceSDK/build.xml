@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="eSpace_android" default="compile">
+
+	<property name="basedir" value="F:\PadWorkspace\eSpaceServiceV1.9.0" />
+	<property name="resource-dir-mobile" value="../eSpaceAppPhoneC50/res" />
+    <property name="outdir" value="${basedir}/bin" />
+    <property name="sdk-platform-tools" value="F:\android3.2\android-sdk\android-sdk\platform-tools" />
+    <property name="sdk-platform" value="F:\android3.2\android-sdk\android-sdk\platforms\android-13" />
+    <property location="${outdir}" name="out.absolute.dir" />
+    <property name="outdir-gen" value="${basedir}/gen" />
+    <property name="resource-dir" value="${basedir}/res" />
+    <property name="src-dir" value="${basedir}/src" />
+    <property name="outdir-classes" value="${outdir}/classes" />
+    <property location="${outdir-classes}" name="out.classes.absolute.dir" />
+    <property name="aapt" value="${sdk-platform-tools}/aapt.exe" />
+    <property name="android-jar" value="${sdk-platform}/android.jar" />
+    <path id="libs">
+        <fileset dir="${basedir}/libs">
+            <include name="*.jar" />        	
+        </fileset>
+		<fileset dir="${basedir}/innerlib">
+            <include name="*.jar" />        	
+        </fileset>
+		<fileset dir="${basedir}/platform">
+            <include name="*.jar" />        	
+        </fileset>
+        <fileset dir="${basedir}/open_src">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+    <path id="dist-svn-libs">
+        <fileset dir="${basedir}/libs/armeabi">           
+        	<include name="*.so" /> 
+        </fileset>
+    </path>
+    	
+	<!-- 步骤 1. 删除上次编译生成的class文件-->
+    <target name="delete-file">
+        <delete includeEmptyDirs="true" failonerror="false"> <!--同时删除空的目录--> 
+        	<fileset dir="${outdir}"/>
+            <fileset dir="${outdir-gen}"/>           
+        </delete>  
+    </target>
+	
+	<!-- 步骤 2. 创建目录-->
+    <target name="init" depends="delete-file" >
+        <echo>Creating all output directories</echo>
+        <mkdir dir="${outdir}" />
+        <mkdir dir="${outdir-classes}" />
+        <mkdir dir="${outdir-gen}" />
+    </target>
+	
+	<!-- 步骤 3. 打包生成R文件-->
+    <target depends="init" name="resource-src">
+        <echo>Generating R.java...</echo>
+        <exec executable="${aapt}" failonerror="true">
+            <arg value="package" />
+            <arg value="-m" />
+			<arg value="--auto-add-overlay" />
+            <arg value="-J" />
+            <arg value="${outdir-gen}" />
+            <arg value="-M" />
+            <arg value="${basedir}/AndroidManifest.xml" />
+			<arg value="-S" />
+            <arg value="${resource-dir-mobile}" />
+            <arg value="-S" />
+            <arg value="${resource-dir}" />
+            <arg value="-I" />
+            <arg value="${android-jar}" />
+			<arg value="--auto-add-overlay" />
+        </exec>
+    </target>
+    	
+	<!-- 步骤 4. 编译所有java文件-->
+    <target depends="init,resource-src" name="compile">
+    	<echo>Compiling  Java classes...</echo>
+        <javac bootclasspath="${android-jar}" debug="true" destdir="${outdir-classes}" encoding="utf-8" extdirs="" srcdir="${basedir}/gen" target="1.6">
+            <classpath refid="libs" />
+            <classpath refid="dist-svn-libs" />
+        </javac>
+        <javac bootclasspath="${android-jar}" debug="true" destdir="${outdir-classes}" encoding="utf-8" extdirs="" srcdir="${basedir}/src" target="1.6">
+            <classpath refid="libs" />
+        	<classpath refid="dist-svn-libs" />
+        </javac>
+    </target>
+</project>

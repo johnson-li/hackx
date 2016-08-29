@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/dial"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout 
+                    android:id="@+id/title_layout"
+                    android:layout_height="@dimen/heightTitle"
+                    android:layout_width="match_parent"
+                    android:background="@color/primary">
+        <RelativeLayout android:id="@+id/left_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/bg_icon_selector">
+            <ImageView android:id="@+id/left_img"
+                       android:layout_width="46dp"
+                       android:layout_height="46dp"
+                       android:layout_alignParentLeft="true"
+                       android:layout_centerVertical="true"
+                       android:paddingLeft="6dp"
+                       android:paddingRight="6dp"
+                       android:src="@drawable/icon_back"
+                       android:scaleType="fitCenter"/>
+            <!--<ImageView android:id="@+id/logo_img"-->
+                       <!--android:layout_width="wrap_content"-->
+                       <!--android:layout_height="wrap_content"-->
+                       <!--android:layout_centerVertical="true"-->
+                       <!--android:layout_toRightOf="@id/left_img"-->
+                       <!--android:paddingRight="6dp"-->
+                       <!--android:src="@drawable/icon_logo"-->
+                       <!--android:scaleType="center"/>-->
+
+            <TextView android:id="@+id/title_text"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerInParent="true"
+                      android:layout_toRightOf="@+id/left_img"
+                      android:paddingRight="6dp"
+                      android:singleLine="true"
+                      android:textSize="16sp"
+                      android:textColor="@color/white"
+                      android:visibility="gone"
+                    />
+        </RelativeLayout>
+
+        <LinearLayout android:id="@+id/right_img_layout"
+                      android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:layout_alignParentRight="true"
+                      android:layout_centerVertical="true"
+                      android:paddingLeft="6dp"
+                      android:gravity="center_vertical"
+                      android:background="@drawable/bg_icon_selector">
+            <TextView android:id="@+id/right_text"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/white"
+                      android:textSize="16sp"/>
+            <ImageView
+                    android:id="@+id/right_img"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_right"
+                    android:visibility="visible">
+            </ImageView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@color/primary">
+
+        <RelativeLayout
+                android:id="@+id/number_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <EditText
+                    android:id="@+id/callNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toLeftOf="@+id/deleteNumber"
+                    android:background="@android:color/transparent"
+                    android:scrollHorizontally="true"
+                    android:maxLength="21"
+                    android:singleLine="true"
+                    android:textSize="@dimen/dial_edittext_size"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:phoneNumber="true"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+            </EditText>
+            <ImageView
+                    android:id="@+id/deleteNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/dial_delete_disable"/>
+        </RelativeLayout>
+
+        <TextView
+                android:id="@+id/hint"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:ellipsize="end"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:layout_below="@+id/number_layout"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="10dp"
+                >
+        </TextView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            <ImageView
+                    android:id="@+id/callOne"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_left_selector"
+                    android:clickable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_1">
+            </ImageView>
+
+            <ImageView
+                    android:id="@+id/callTwo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_left_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_2">
+            </ImageView>
+
+            <ImageView
+                    android:id="@+id/callThree"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_right_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_3">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/LinearLayout03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            <ImageView
+                    android:id="@+id/callFour"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_left_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_4">
+            </ImageView>
+
+            <ImageView
+                    android:id="@+id/callFive"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_left_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_5">
+            </ImageView>
+
+            <ImageView
+                    android:id="@+id/callSix"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_right_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_6">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/LinearLayout05"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            <ImageView
+                    android:id="@+id/callSeven"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_left_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_7">
+            </ImageView>
+
+            <ImageView
+                    android:id="@+id/callEight"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_left_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_8">
+            </ImageView>
+
+            <ImageView
+                    android:id="@+id/callNine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_right_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_9">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/LinearLayout12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            <ImageView
+                    android:id="@+id/callX"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_left_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_star">
+            </ImageView>
+
+            <ImageView
+                    android:id="@+id/callZero"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_left_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_0">
+            </ImageView>
+
+            <ImageView
+                    android:id="@+id/callJ"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_right_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_sign">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/LinearLayout15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            <ImageView
+                    android:id="@+id/toContact"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_left_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_contacts_selector">
+            </ImageView>
+
+            <ImageView
+                    android:id="@+id/callCall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_left_clicked"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_call_disable">
+            </ImageView>
+
+            <ImageView
+                    android:id="@+id/videoCall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/dial_bg_right_selector"
+                    android:scaleType="center"
+                    android:src="@drawable/dial_video_disable">
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

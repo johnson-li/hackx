@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="303dp" android:layout_height="wrap_content"
+                  android:background="@drawable/pop_bg_all_normal">
+
+        <TextView style="@style/title_dialog_style"
+                  android:text="@string/infotip"
+                  android:id="@+id/dialog_header"/>
+        <include layout="@layout/dialog_title_content_divider"></include>
+        <TextView style="@style/content_dialog_style"
+                  android:paddingBottom="0dp"
+                  android:text="@string/ctdcall_detail"
+                  android:id="@+id/dialog_message">
+
+        </TextView>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:id="@+id/prompt_select_layout">
+
+            <CheckBox
+                    android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentLeft="true"
+                      android:layout_centerVertical="true"
+                      android:layout_marginLeft="20dp"
+
+                      android:id="@+id/chkItem"
+                      android:button="@drawable/chk_dialog_selector"
+                      android:checked="false"
+                      android:focusable="false"
+                      android:focusableInTouchMode="false"
+                      android:clickable="false"
+                      android:gravity="center">
+            </CheckBox>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_toRightOf="@id/chkItem"
+                    android:layout_centerVertical="true"
+
+                    android:id="@+id/text_select"
+                    android:textSize="18sp"
+                    android:textColor="@color/textPrimary"
+                    android:gravity="center_vertical"
+                    android:text="@string/cancelhint">
+            </TextView>
+            <!--android:layout_centerVertical="true"-->
+        </RelativeLayout>
+
+        <!--android:drawableLeft="@drawable/btn_square_unselected"-->
+        <!--<include layout="@layout/dialog_content_divider_hor"></include>-->
+        <Button android:text="@string/cancelhint"
+                style="@style/btn_dialog_style"
+                android:id="@+id/dialog_single_button"
+                android:visibility="gone"/>
+
+        <include layout="@layout/dialog_content_divider_hor"></include>
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <Button style="@style/btn_dialog_style"
+                    android:text="@string/btn_cancel"
+                    android:id="@+id/dialog_leftbutton"/>
+            <include layout="@layout/dialog_content_divider_ver"></include>
+            <Button android:text="@string/btn_sure"
+                    style="@style/btn_dialog_style"
+                    android:id="@+id/dialog_rightbutton"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</merge>

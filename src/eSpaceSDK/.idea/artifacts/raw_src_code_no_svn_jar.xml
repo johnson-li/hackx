@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="raw_src_code_no_svn:jar">
+    <output-path>$PROJECT_DIR$/out/</output-path>
+    <root id="archive" name="raw_src_code_no_svn.jar">
+      <element id="module-output" name="raw_src_code_no_svn" />
+    </root>
+  </artifact>
+</component>

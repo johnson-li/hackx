@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <!-- CTD模式 -->
+    <com.huawei.espace.widget.BottomLineLayout android:layout_width="fill_parent"
+                                               android:layout_height="wrap_content"
+                                               android:background="@drawable/bg_item_selector"
+                                               android:id="@+id/callback_ctd_view"
+                                               android:paddingTop="10dp"
+                                               android:paddingBottom="10dp"
+                                               android:visibility="gone">
+
+        <RelativeLayout android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ctd_relativelayout1">
+
+            <TextView
+                    android:id="@+id/ctd_tag"
+                    style="@style/setting_text"
+                    android:layout_alignParentLeft="true"
+                    android:singleLine="true"
+                    android:text="@string/call_setting_ctd"
+                    />
+            <ImageView android:layout_width="21.33dp"
+                       android:layout_height="21.33dp"
+                       android:scaleType="fitXY"
+                       android:layout_alignParentRight="true"
+                       android:src="@drawable/selector_radio"
+                       android:id="@+id/callback_ctd"
+                       android:layout_centerVertical="true"
+                       android:clickable="false"
+                    />
+        </RelativeLayout>
+
+        <TextView
+                android:id="@+id/declare_textview1"
+                style="@style/setting_content_text"
+                android:paddingBottom="0dp"
+                android:layout_below="@+id/ctd_relativelayout1"
+                android:text="@string/ctdcall_detail"
+                android:visibility="gone"
+                />
+
+    </com.huawei.espace.widget.BottomLineLayout>
+
+    <!-- voip模式 -->
+    <com.huawei.espace.widget.BottomLineLayout android:layout_width="fill_parent"
+                                               android:layout_height="wrap_content"
+                                               android:background="@drawable/bg_item_selector"
+                                               android:id="@+id/voip_view"
+                                               android:paddingTop="10dp"
+                                               android:paddingBottom="10dp"
+                                               android:visibility="gone">
+
+        <RelativeLayout android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/voip_relativelayout1">
+
+            <TextView
+                    android:id="@+id/voip_tag"
+                    style="@style/setting_text"
+                    android:layout_alignParentLeft="true"
+                    android:singleLine="true"
+                    android:text="@string/call_setting_voip"
+                    />
+
+            <ImageView android:layout_width="21.33dp"
+                       android:layout_height="21.33dp"
+                       android:scaleType="fitXY"
+                       android:layout_alignParentRight="true"
+                       android:src="@drawable/selector_radio"
+                       android:id="@+id/call_voip"
+                       android:layout_centerVertical="true"
+                       android:clickable="false"
+                    />
+        </RelativeLayout>
+
+        <TextView
+                android:id="@+id/declare_textview2"
+                style="@style/setting_content_text"
+                android:paddingBottom="0dp"
+                android:layout_below="@+id/voip_relativelayout1"
+                android:text="@string/dial_voip_detail"
+                android:visibility="gone"
+                />
+
+    </com.huawei.espace.widget.BottomLineLayout>
+
+    <!-- 手机模式 -->
+    <com.huawei.espace.widget.BottomLineLayout android:layout_width="fill_parent"
+                                               android:layout_height="wrap_content"
+                                               android:background="@drawable/bg_item_selector"
+                                               android:id="@+id/mobile_view"
+                                               android:paddingTop="10dp"
+                                               android:paddingBottom="10dp"
+                                               android:visibility="gone">
+
+        <RelativeLayout android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mobile_relativelayout1">
+
+            <TextView
+                    android:id="@+id/mobile_tag"
+                    style="@style/setting_text"
+                    android:layout_alignParentLeft="true"
+                    android:singleLine="true"
+                    android:text="@string/mobile_setting"
+                    />
+
+            <ImageView android:layout_width="21.33dp"
+                       android:layout_height="21.33dp"
+                       android:scaleType="fitCenter"
+                       android:layout_alignParentRight="true"
+                       android:src="@drawable/selector_radio"
+                       android:id="@+id/call_mobile"
+                       android:layout_centerVertical="true"
+                       android:clickable="false"
+                    />
+        </RelativeLayout>
+
+        <TextView
+                android:id="@+id/declare_textview3"
+                style="@style/setting_content_text"
+                android:paddingBottom="0dp"
+                android:layout_below="@+id/mobile_relativelayout1"
+                android:text="@string/localcall_detail"
+                android:visibility="gone"
+                />
+    </com.huawei.espace.widget.BottomLineLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DB>
+    <Version tag = "V1.9.2"/>
+	<Entity name = "EventReport" dir = "com.huawei.reportstatistics" type ="create">
+		<column name = "id" attribute = "integer primary key autoincrement" type = "int" description = "自增长"/>
+		<column name = "eventReportType" attribute = "integer" type = "int" description = "上报事件类型"/>
+		<column name = "eventReportBody" attribute = "varchar(512)" type = "String" encrypt = "true" description = "上报事件内容"/>
+	</Entity>
+    <Entity name = "EventReport" dir = "com.huawei.reportstatistics" type ="update">
+    </Entity>
+
+	<Entity name = "GroupFile" dir = "com.huawei.groupzone" type ="create">
+		<column name = "id" attribute = "integer primary key autoincrement" type = "int" description = "自增长"/>
+		<column name = "groupId" attribute = "varchar(128)" type = "String" description = "群组ID"/>
+		<column name = "fileUID" attribute = "varchar(128)" type = "String" description = "存服务器的唯一ID"/>
+		<column name = "prepareUploadId" attribute = "varchar(128)" type = "String" description = "预上传文件ID"/>
+		<column name = "fileName" attribute = "varchar(128)" type = "String" encrypt = "true" description = "文件名称"/>
+		<column name = "fileType" attribute = "integer" type = "int" description = "文件类型"/>
+		<column name = "fileUrl" attribute = "varchar(256)" type = "String" encrypt = "true" description = "文件url"/>
+		<column name = "accessCode" attribute = "varchar(256)" type = "String" encrypt = "true" description = "文件提取码。（云盘下载使用）"/>
+		<column name = "fileSize" attribute = "integer" type = "int" description = "文件大小，单位为字节。"/>
+		<column name = "uploadTime" attribute = "long" type = "long" description = "上传时间"/>
+		<column name = "ownerAccount" attribute = "varchar(128)" type = "String" encrypt = "true" description = "发送者账号"/>
+		<column name = "ownerName" attribute = "varchar(128)" type = "String" encrypt = "true" description = "发送者名称"/>
+		<column name = "storePath" attribute = "varchar(256)" type = "String" description = "存储路径"/>
+		<column name = "status" attribute = "integer" type = "int" description = "群文件发送，下载状态。"/>
+	</Entity>
+    <Entity name = "GroupFile" dir = "com.huawei.GroupFile" type ="update">
+		<column name = "isDownloaded" attribute = "integer" type = "int" description = "群文件是否从群空间下载到本地"/>
+		<column name = "isDeleted" attribute = "integer" type = "int" description = "群文件是否在群空间中已经删除"/>
+		<column name = "downloadTime" attribute = "long" type = "long" description = "下载时间"/>
+    </Entity>
+
+	<Entity name = "GroupFileRelation" dir = "com.huawei.groupzone" type ="create">
+		<column name = "groupFileId" attribute = "integer not null" type = "int" description = "群文件在数据库的id"/>
+		<column name = "instantMessageId" attribute = "integer not null,  primary key(groupFileId, instantMessageId)" type = "int" description = "消息在数据库的id"/>
+	</Entity>
+	<Entity name = "GroupFileRelation" dir = "com.huawei.groupzone" type ="update">
+	</Entity>
+
+	<!--<Entity name = "FileResource" dir = "com.huawei.fileresource" type ="create">-->
+		<!--<column name = "id" attribute = "integer primary key autoincrement" type = "int" description = "数据库自增长id"/>-->
+		<!--<column name = "key" attribute = "varchar(128)" type = "String" description = "目前key代表文件的url"/>-->
+		<!--<column name = "localPath" attribute = "varchar(128)" type = "String" description = "本地路径"/>-->
+		<!--<column name = "downloadTime" attribute = "long" type = "long" description = "下载时间"/>-->
+		<!--<column name = "fileFrom" attribute = "varchar(128)" type = "String" description = "文件来源"/>-->
+	<!--</Entity>-->
+	<!--<Entity name = "FileResource" dir = "com.huawei.fileresource" type ="update">-->
+	<!--</Entity>-->
+
+	<Entity name = "Draft" dir = "com.huawei.draft" type ="create">
+		<column name = "key" attribute = "varchar(32) primary key" type = "String" description = "草稿key：id+type（id：群或者点对点标示；type：群用2表示，点对点用1表示）"/>
+		<column name = "content" attribute = "string" encrypt = "true" type = "String" description = "消息在数据库的id"/>
+	</Entity>
+	<Entity name = "Draft" dir = "com.huawei.draft" type ="update">
+	</Entity>
+
+
+
+</DB>

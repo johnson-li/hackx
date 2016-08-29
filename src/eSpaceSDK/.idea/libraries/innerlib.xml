@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="innerlib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/innerlib/ecslib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/innerlib/eMessage-PublicService.jar!/" />
+      <root url="jar://$PROJECT_DIR$/innerlib/eMessage-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

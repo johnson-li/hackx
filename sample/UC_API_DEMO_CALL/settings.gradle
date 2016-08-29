@@ -1,0 +1,2 @@
+include ':eSpaceSDK'
+project(':eSpaceSDK').projectDir = new File(settingsDir,'../../src/eSpaceSDK')

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="303dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/pop_bg_all_normal">
+
+
+    <RelativeLayout
+            android:id="@+id/relativelayout01"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="12dp"
+            android:paddingRight="17dip"
+            android:paddingLeft="20dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+        <ImageView
+                android:id="@+id/headimage"
+                android:layout_width="67dip"
+                android:layout_height="67dip"
+                android:background="@drawable/headbg"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_head"/>
+
+        <LinearLayout
+                android:id="@+id/linearlayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="67dip"
+                android:layout_toRightOf="@id/headimage"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                    android:id="@+id/linearlayout02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33.5dp"
+                    android:layout_marginRight="6.7dip">
+
+                <ImageView
+                        android:id="@+id/headstatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/recent_offline_small"
+                        android:scaleType="center"
+                        android:visibility="invisible"/>
+
+                <com.huawei.espace.module.contactdetail.adapter.MarqueeText
+                        android:id="@+id/textview01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="6.7dip"
+                        android:layout_marginTop="3dip"
+                        android:layout_toRightOf="@id/headstatus"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="20sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/linearlayout03"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="6.7dip">
+
+                <ImageView
+                        android:id="@+id/nouse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/recent_offline_small"
+                        android:scaleType="center"
+                        android:visibility="invisible"/>
+
+                <com.huawei.espace.module.contactdetail.adapter.MarqueeText
+                        android:id="@+id/textview02"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_toRightOf="@id/nouse"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="left|center_vertical"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:maxWidth="195dip"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:layout_centerInParent="true"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/textPrimary"
+                        android:textSize="14.6sp"
+                        android:visibility="visible"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView android:id="@+id/dialog_message"
+              style="@style/content_dialog_style"/>
+    <include layout="@layout/dialog_content_divider_hor"></include>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+        <Button style="@style/btn_dialog_style"
+                android:text="@string/show_personal_detail"
+                android:id="@+id/dialog_single_button"
+                />
+    </LinearLayout>
+    <include layout="@layout/dialog_content_divider_hor"></include>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <Button style="@style/btn_dialog_style"
+                android:text="@string/btn_cancel"
+                android:id="@+id/dialog_leftbutton"
+                />
+        <include layout="@layout/dialog_content_divider_ver"></include>
+        <Button android:text="@string/btn_sure"
+                style="@style/btn_dialog_style"
+                android:id="@+id/dialog_rightbutton"/>
+    </LinearLayout>
+
+</LinearLayout>

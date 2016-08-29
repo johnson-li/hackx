@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="androidversion">V2.5.0</string>
+    <string name="app_name">eSdk UC Contact</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="username_input">请输入账号</string>
+	<string name="password_input">请输入密码</string>
+	<string name="ip_input">请输入服务器地址</string>
+	<string name="port_input">请输入端口号</string>
+	<string name="rember">记住账号密码</string>
+	<string name="register">登录</string>
+	<string name="welcome">欢迎！</string>
+	<string name="all_contacts">联系人</string>
+	<string name="searchfromenterprise">search</string>
+	<string name="add">添加</string>
+	<string name="search">查找</string>
+	<string name="offline">离线</string>
+	<string name="busy">忙碌</string>
+	<string name="away">离线</string>
+	<string name="recent_away">离开</string>
+	<string name="online">在线</string>
+	<string name="delete">删除</string>
+	<string name="groupname">无</string>
+	<string name="discuss">创建讨论组</string>
+	<string name="show_discuss">显示讨论组</string>
+	<string name="discuss_group">讨论组</string>
+	<string name="name">name</string>
+	<string name="toCall">去呼叫</string>
+	<string name="callDirect">网络直呼</string>
+	<string name="conf_create_init_subject_suffix">%1$s\'s meeting</string>
+	
+	<string name="ensure_delete">确定删除吗</string>
+	<string name="ensure">确定退出吗？</string>
+	<string name="sure_exit">确定</string>
+	<string name="cancel_exit">取消</string>
+	<string name="espace">eSpace</string>
+    <string name="version_name">v2.3.3.0 Alpha</string>
+    <string name="build">1162</string>
+    <string name="push">eSpacePush</string>
+    <string name="pushService">PushService</string>
+    <string name="buildTimestamp">2015-07-29 10:03:02</string>
+</resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="open_src">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/open_src/android-support-v13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/open_src/glide-3.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/open_src/guava-18.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/open_src/android-support-v7-recyclerview.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

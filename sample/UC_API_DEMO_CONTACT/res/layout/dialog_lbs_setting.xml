@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="303dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/bg_popup_dialog"
+              android:layout_marginTop="13dp"
+              android:layout_marginBottom="13dp"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/dialog_header"
+            style="@style/title_dialog_style"
+            />
+    <include layout="@layout/dialog_title_content_divider"></include>
+
+    <ListView
+            android:id="@+id/dialog_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/dial_bg_gray"
+            android:dividerHeight="@dimen/dividerHeight"
+            android:fadingEdge="none"
+            android:listSelector="@color/transparent"
+            android:scrollbars="none"/>
+
+</LinearLayout>

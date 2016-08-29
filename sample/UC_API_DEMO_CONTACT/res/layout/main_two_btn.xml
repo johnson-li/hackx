@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/left_contal_rl2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@drawable/selector_btn_red" >
+
+        <TextView
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/conf_detail_btn_cancel_book"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/right_contal_rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/conf_detail_delete_select" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <ProgressBar
+                android:id="@+id/progressbar1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2.55dp"
+                android:indeterminateDrawable="@drawable/bar_anim"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/progressbar1"
+                android:singleLine="true"
+                android:text="@string/conf_detail_btn_end"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

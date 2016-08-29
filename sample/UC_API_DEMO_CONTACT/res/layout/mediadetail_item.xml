@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"
+				
+				android:background="@drawable/contactdetail_up">
+			<TextView android:layout_width="80dip"
+				     android:layout_height="47dip"
+				      	android:gravity="right|center_vertical"
+						
+						
+						android:text="终端"
+						android:textStyle="bold" 
+						android:singleLine="true"
+						android:textColor="#b0b0b0" 
+						android:textSize="16sp"
+					/>
+		    <TextView android:layout_width="190dip"
+				      android:layout_height="47dip"
+				      	android:gravity="left|center_vertical"
+						android:paddingLeft="15dip"
+						android:id="@+id/textview04"
+						android:text="*05711012345" 
+					
+						android:textStyle="bold"
+						android:textColor="@color/black"
+						android:textSize="16sp"/>	
+			<ImageView android:layout_width="20dip"	
+						android:layout_height="20dip"
+						android:background="@drawable/check"
+						android:layout_gravity="center"/>	
+						
+				 </LinearLayout>
+<LinearLayout android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"
+				
+				android:background="@drawable/contactdetail_mid">
+			<TextView android:layout_width="80dip"
+				      android:layout_height="47dip"
+				      	android:gravity="right|center_vertical"
+						
+					
+						android:text="手机" 
+						android:singleLine="true"
+						android:textStyle="bold"
+					android:textColor="#b0b0b0" 
+						android:textSize="16sp"/>
+		    <TextView android:layout_width="190dip"
+				      android:layout_height="47dip"
+				      	android:gravity="left|center_vertical"
+						android:paddingLeft="15dip"
+					android:id="@+id/textview05"
+						android:text="0571123456789" 
+					
+						android:textStyle="bold"
+						android:textColor="@color/black"
+						android:textSize="16sp"/>
+		<ImageView android:layout_width="20dip"	
+						android:layout_height="20dip"
+						android:background="@drawable/check"
+						android:layout_gravity="center"/>				
+				 </LinearLayout>
+<LinearLayout android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"
+				android:background="@drawable/contactdetail_mid">
+			<TextView android:layout_width="80dip"
+				     android:layout_height="47dip"
+				      	android:gravity="right|center_vertical"
+						
+						android:singleLine="true"
+						android:text="IP固话"
+						android:textStyle="bold"
+					android:textColor="#b0b0b0" 
+						android:textSize="16sp"/>
+		    <TextView android:layout_width="190dip"
+				    android:layout_height="47dip"
+				      	android:gravity="left|center_vertical"
+						android:paddingLeft="15dip"
+						android:id="@+id/textview06"
+						android:text="05714564965"
+						android:textStyle="bold"
+						android:textColor="@color/black"
+						android:textSize="16sp"/>	
+		<ImageView android:layout_width="20dip"	
+						android:layout_height="20dip"
+						android:background="@drawable/check"
+						android:layout_gravity="center"/>			
+				 </LinearLayout>
+<LinearLayout android:layout_width="fill_parent"
+				  android:layout_height="wrap_content"
+				android:background="@drawable/contactdetail_down">
+			<TextView android:layout_width="80dip"
+				     android:layout_height="47dip"
+				      	android:gravity="right|center_vertical"
+						
+					
+						android:text="其他"
+						android:textStyle="bold" android:singleLine="true"
+						android:textColor="#b0b0b0" 
+						android:textSize="16sp"/>
+		    <EditText android:layout_width="190dip"
+				      android:layout_height="47dip"
+				      	android:gravity="left|center_vertical"
+						android:paddingLeft="15dip"
+						android:id="@+id/textview07"
+						android:hint="请输入" 
+						android:textStyle="bold"
+						android:textColor="@color/black"
+						android:textSize="16sp"
+						android:background="@android:color/transparent"/>
+					
+				 </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="303dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/pop_bg_all_normal"
+              android:orientation="vertical">
+
+    <TextView style="@style/title_dialog_style"
+            android:id="@+id/dialog_header"/>
+    <include layout="@layout/dialog_title_content_divider"></include>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp">
+        <TextView
+                android:layout_marginBottom="8dp"
+                android:id="@+id/dialog_message"
+                android:textSize="18sp"
+                android:textColor="@color/textPrimary"
+                android:gravity="center_vertical|left"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp">
+        </TextView>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/prompt_select_layout">
+            <CheckBox android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/chkItem"
+                      android:button="@drawable/chk_dialog_selector"
+                      android:layout_centerVertical="true"
+                      android:checked="false"
+                      android:focusable="false"
+                      android:focusableInTouchMode="false"
+                      android:clickable="false"
+                      android:layout_alignParentLeft="true"></CheckBox>
+            <TextView
+                    android:id="@+id/text_select"
+                    android:textSize="18sp"
+                    android:textColor="@color/textPrimary"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_toRightOf="@id/chkItem"
+                    android:text="@string/cancelhint">
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include layout="@layout/dialog_content_divider_hor"></include>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <Button style="@style/btn_dialog_style"
+                android:text="@string/btn_cancel"
+                android:id="@+id/dialog_leftbutton"
+                />
+        <include layout="@layout/dialog_content_divider_ver"></include>
+        <Button android:text="@string/btn_sure"
+                style="@style/btn_dialog_style"
+                android:id="@+id/dialog_rightbutton"/>
+    </LinearLayout>
+
+
+</LinearLayout>

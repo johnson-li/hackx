@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        android:background="@drawable/bg_dialog_selector">
+
+    <RelativeLayout
+        android:id="@+id/dialog_item_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/dialog_item_textview"
+            android:layout_width="80dp"
+            android:layout_marginLeft="5.3dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/textPrimary"
+            android:textSize="16sp" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_toLeftOf="@+id/dialog_item_imageview"
+            android:layout_toRightOf="@id/dialog_item_textview" >
+
+            <ImageView
+                android:id="@+id/dialog_ipstatus_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                android:background="@drawable/recent_offline_small"
+                android:layout_gravity="center_vertical"
+                android:src="@null" />
+
+            <TextView
+                android:id="@+id/dialog_item_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/textPrimary"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/dialog_item_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.3dp"
+            android:layout_marginRight="5.3dp"
+            android:scaleType="fitXY"
+            android:src="@null" />
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/dialog_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+        <TextView
+                android:id="@+id/dialog_title_item_textview"
+                style="@style/title_dialog_style"/>
+
+        <include android:id="@+id/line_for_header"
+                 layout="@layout/dialog_title_content_divider"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.espace.widget.BottomLineLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/heightItem"
+                android:minHeight="@dimen/heightItem"
+                android:background="@drawable/bg_item_selector"
+                android:paddingLeft="4.67dp">
+
+    <RelativeLayout
+            android:id="@+id/head_popup_layout"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2.67dp"
+            >
+        <com.huawei.espace.widget.photo.RoundCornerPhotoView
+                android:id="@+id/head_popup_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/default_head"/>
+        <ImageView
+                android:id="@+id/head_popup_status_img"
+                android:padding="0.5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/recent_online_big"
+                android:background="@drawable/contact_state_background"
+                />
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/head_popup_nickname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/head_popup_layout"
+            android:singleLine="true"
+            android:text="xxxxxxxxxxxxx"
+            android:textColor="@color/textPrimary"
+            android:textSize="18sp"
+            android:scrollHorizontally="true"
+            />
+    <TextView
+            android:id="@+id/head_popup_signature"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head_popup_nickname"
+            android:layout_alignLeft="@+id/head_popup_nickname"
+            android:singleLine="true"
+            android:text="xxxxxxxxxxxxx"
+            android:textColor="@color/textSecondary"
+            android:textSize="14sp"
+            android:scrollHorizontally="true"
+            />
+
+</com.huawei.espace.widget.BottomLineLayout>

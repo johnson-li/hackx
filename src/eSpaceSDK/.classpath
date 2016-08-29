@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="innerlib/eMessage-core.jar" sourcepath="/ECS"/>
+	<classpathentry exported="true" kind="lib" path="innerlib/eMessage-PublicService.jar" sourcepath="/ECS"/>
+	<classpathentry exported="true" kind="lib" path="platform/TupCall.jar"/>
+	<classpathentry exported="true" kind="lib" path="platform/svnapi.jar"/>
+	<classpathentry exported="true" kind="lib" path="platform/TupIm.jar"/>
+	<classpathentry exported="true" kind="lib" path="platform/TupConf.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="innerlib/ecslib.jar" sourcepath="/ECS"/>
+	<classpathentry exported="true" kind="lib" path="platform/HME-Audio.jar"/>
+	<classpathentry exported="true" kind="lib" path="platform/HME-Video.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/android-19"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="open_src/android-support-v13.jar"/>
+	<classpathentry exported="true" kind="lib" path="open_src/guava-16.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="platform/AnyOfficeSDK.jar"/>
+	<classpathentry exported="true" kind="lib" path="platform/gson-2.2.4.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
