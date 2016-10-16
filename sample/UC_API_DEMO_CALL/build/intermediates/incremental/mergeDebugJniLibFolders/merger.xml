@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build-types/debug/jniLibs"/></dataSet></merger>

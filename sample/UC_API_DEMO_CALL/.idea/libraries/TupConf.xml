@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TupConf">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../src/eSpaceSDK/platform/TupConf.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

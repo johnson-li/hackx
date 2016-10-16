@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/fab_shadow_mini.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/mipmap-xhdpi-v4/fab_shadow_mini.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/fab_shadow_normal.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/mipmap-xhdpi-v4/fab_shadow_normal.png"
+    }
+]

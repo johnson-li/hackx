@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable/e_scrollbar.9.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable/e_scrollbar.9.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable/hwpush_btn_checkbox_list_star.xml",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable/hwpush_btn_checkbox_list_star.xml"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable/left_shadow.9.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable/left_shadow.9.png"
+    }
+]

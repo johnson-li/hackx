@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/drawable-ldpi-v4/design_ic_visibility.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/generated/res/pngs/debug/drawable-ldpi/design_ic_visibility.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_ic_menu_overflow_material.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/generated/res/pngs/debug/drawable-ldpi/abc_ic_menu_overflow_material.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_ic_clear_material.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/generated/res/pngs/debug/drawable-ldpi/abc_ic_clear_material.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_ic_go_search_api_material.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/generated/res/pngs/debug/drawable-ldpi/abc_ic_go_search_api_material.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_ic_arrow_drop_right_black_24dp.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/generated/res/pngs/debug/drawable-ldpi/abc_ic_arrow_drop_right_black_24dp.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_ic_search_api_material.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/generated/res/pngs/debug/drawable-ldpi/abc_ic_search_api_material.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_vector_test.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/generated/res/pngs/debug/drawable-ldpi/abc_vector_test.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_ic_ab_back_material.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/generated/res/pngs/debug/drawable-ldpi/abc_ic_ab_back_material.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/drawable-ldpi-v4/abc_ic_voice_search_api_material.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/generated/res/pngs/debug/drawable-ldpi/abc_ic_voice_search_api_material.png"
+    }
+]

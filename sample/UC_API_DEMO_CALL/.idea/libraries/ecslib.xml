@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ecslib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../src/eSpaceSDK/innerlib/ecslib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

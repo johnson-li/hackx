@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/anim/fab_show_in.xml",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/anim/fab_show_in.xml"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/anim/shadow_show_in.xml",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/anim/shadow_show_in.xml"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/anim/slide_in_right.xml",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/anim/fab_hide_out.xml",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/anim/fab_hide_out.xml"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/anim/slide_out_right.xml",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/anim/slide_out_right.xml"
+    }
+]

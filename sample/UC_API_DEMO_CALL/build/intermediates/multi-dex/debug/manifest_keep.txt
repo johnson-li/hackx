@@ -1,0 +1,19 @@
+-keep class com.huawei.esdk.uc.demo.UCAPIApp {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.huawei.esdk.uc.demo.LoginActivity { <init>(); }
+-keep class com.huawei.esdk.uc.demo.MainActivity { <init>(); }
+-keep class com.huawei.esdk.uc.demo.camera.FaceTrackerActivity { <init>(); }
+-keep class com.huawei.esdk.uc.demo.call.media.MediaActivity { <init>(); }
+-keep class com.huawei.esdk.uc.demo.call.video.VideoActivity { <init>(); }
+-keep class com.huawei.service.EspaceService { <init>(); }
+-keep class com.huawei.push.BootCompletedReceiver { <init>(); }
+-keep class com.huawei.push.PushService { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

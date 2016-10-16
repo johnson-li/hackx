@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/root_cert_1.pem",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/root_cert_1.pem"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m10.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m10.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/ringing.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/ringing.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/news.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/news.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/jingling.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/jingling.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/data.properties",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/data.properties"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m1.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m1.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/startup.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/startup.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m7.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m7.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m4.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m4.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/light_bell.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/light_bell.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m0.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m0.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/new_mail.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/new_mail.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m9.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m9.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m6.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m6.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/call_ring.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/call_ring.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/warning.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/warning.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/dudu.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/dudu.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m3.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m3.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/msg_ring.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/msg_ring.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/dingdong.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/dingdong.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m8.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m8.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/msgtip.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/msgtip.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/rainbow.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/rainbow.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m2.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m2.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/echo.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/echo.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m5.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m5.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/in.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/in.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/guitar.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/guitar.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/m11.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/m11.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/mylove.mp3",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/mylove.mp3"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/thrumming.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/thrumming.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/ctd_music_zh.mp3",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/ctd_music_zh.mp3"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/charm_bell.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/charm_bell.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/ctd_music_en.mp3",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/ctd_music_en.mp3"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/harmonics.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/harmonics.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/notify_ring.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/notify_ring.wav"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/res/merged/debug/raw/ringaring.wav",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/sample/UC_API_DEMO_CALL/build/intermediates/exploded-aar/UC_API_DEMO_CALL/eSpaceSDK/unspecified/res/raw/ringaring.wav"
+    }
+]

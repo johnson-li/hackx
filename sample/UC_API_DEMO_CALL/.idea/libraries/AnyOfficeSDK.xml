@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AnyOfficeSDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../src/eSpaceSDK/platform/AnyOfficeSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

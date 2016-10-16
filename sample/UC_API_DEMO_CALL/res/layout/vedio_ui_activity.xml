@@ -1,57 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="5dp"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/switch_camera"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="摄像头切换" />
+            android:text="摄像头切换"
+            android:visibility="gone"/>
 
 
+        <Button
+            android:id="@+id/remove_video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="降为音频"
+            android:visibility="gone"/>
         <Button
             android:id="@+id/hang_up"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="挂断" />
-        <Button 
-            android:id="@+id/remove_video"
-            android:layout_width="0dp"
+            android:text="挂断"/>
+        <Button android:id="@+id/recognize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="recognize"/>
+        <Button
+            android:id="@+id/emotion"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="降为音频"/>
+            android:text="emotion"/>
     </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom">
 
+        <FrameLayout
+            android:id="@+id/local_video"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:background="#999999"/>
         <FrameLayout
             android:id="@+id/remote_video"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-             >
+        >
         </FrameLayout>
 
-        <FrameLayout
-            android:id="@+id/local_video"
-            android:layout_width="121.33dp"
-            android:layout_height="134.67dp"
-            android:background="#999999"
-            >
-        </FrameLayout>
+        <RelativeLayout
+            android:id="@+id/stickers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView android:id="@+id/sticker" android:layout_width="100dp"
+                       android:layout_height="wrap_content"
+                       android:layout_centerHorizontal="true"
+                       android:layout_marginTop="40dp"
+                       android:src="@drawable/sun"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/hints"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
     </RelativeLayout>
 
-</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/pannel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/anger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" android:text="anger"/>
+
+        <TextView
+            android:id="@+id/sadness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/anger"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" android:text="sadness"/>
+
+        <TextView
+            android:id="@+id/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_below="@id/sadness"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="contempt"/>
+
+        <TextView
+            android:id="@+id/happiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/normal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" android:text="happiness"/>
+    </RelativeLayout>
+</RelativeLayout>

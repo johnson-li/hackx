@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/fab_shadow_normal.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/mipmap-xhdpi-v4/fab_shadow_normal.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/mipmap-xhdpi-v4/fab_shadow_mini.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/mipmap-xhdpi-v4/fab_shadow_mini.png"
+    }
+]

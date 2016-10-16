@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="eMessage-core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../src/eSpaceSDK/innerlib/eMessage-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

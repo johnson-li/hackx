@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TupIm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../src/eSpaceSDK/platform/TupIm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

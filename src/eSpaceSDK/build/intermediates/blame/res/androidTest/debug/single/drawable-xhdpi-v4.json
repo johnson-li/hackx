@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_list_icon.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_list_icon.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_no_collection.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_no_collection.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/setting_switch_off.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/setting_switch_off.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_btn_check_on_emui.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_btn_check_on_emui.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_pic_ab_number.9.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_pic_ab_number.9.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_ic_toolbar_multiple1.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_ic_toolbar_multiple1.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_ic_toolbar_delete.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_ic_toolbar_delete.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_background_emui.9.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_background_emui.9.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_list_activated_emui.9.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_list_activated_emui.9.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/setting_switch_on.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/setting_switch_on.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_ic_cancel.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_ic_cancel.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_btn_check_on_pressed_emui.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_btn_check_on_pressed_emui.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_btn_check_off_emui.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_btn_check_off_emui.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_ic_toolbar_advance.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_ic_toolbar_advance.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_main_icon.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_main_icon.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_ic_ok.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_ic_ok.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_shortcut.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_shortcut.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_ic_toolbar_refresh.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_ic_toolbar_refresh.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_ic_toolbar_collect.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_ic_toolbar_collect.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_progress.9.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_progress.9.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_btn_check_off_pressed_emui.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_btn_check_off_pressed_emui.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_status_icon.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_status_icon.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_ic_toolbar_back.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_ic_toolbar_back.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_ab_bottom_emui.9.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_ab_bottom_emui.9.png"
+    },
+    {
+        "merged": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/hwpush_ic_toolbar_multiple.png",
+        "source": "/Users/johnson/Workspace/eSDK_EC_API_Android/src/eSpaceSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/hwpush_ic_toolbar_multiple.png"
+    }
+]
